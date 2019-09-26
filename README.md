@@ -1,5 +1,5 @@
-#Spring Config Client
+# Spring Config Client
 
-##Atualizar aplicação
+## Atualizar aplicação
 
 curl -X POST localhost:8080/app-client-spring/actuator/refresh
