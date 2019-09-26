@@ -1,4 +1,4 @@
-# Spring Config Client
+# Spring Cloud Config - Client
 
 ## Atualizar aplicação
 
