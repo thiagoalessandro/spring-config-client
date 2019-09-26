@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: app-client-spring
+  profiles:
+    active: default
+  cloud:
+    config:
+      uri: http://localhost:8009/configserver
+server:
+  servlet:
+    context-path: /${spring.application.name}
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh
