@@ -2,10 +2,15 @@ spring:
   application:
     name: app-client-spring
   profiles:
-    active: default
+    active: dev
   cloud:
     config:
       uri: http://localhost:8009/configserver
+    stream:
+      kafka:
+        binder:
+          zkNodes: localhost:2181
+          brokers: localhost:9092
 server:
   servlet:
     context-path: /${spring.application.name}
