@@ -14,6 +14,7 @@ spring:
 server:
   servlet:
     context-path: /${spring.application.name}
+  port: 8001
 management:
   endpoints:
     web:

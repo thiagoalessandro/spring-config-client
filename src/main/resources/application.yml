@@ -1,0 +1,4 @@
+kafka:
+  host:
+    url: localhost
+    port: 9092
